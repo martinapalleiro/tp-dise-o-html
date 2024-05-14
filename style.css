@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(193, 193, 193);}
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}
+nav {
+    background-color: grey;
+    padding-top: 3px;
+}
+nav a{
+    float: right;
+    text-align: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+}
+nav img{
+    width: 110px;
+    border-radius: 2px;
+}
+
+aside {
+    float: left;
+    width: 23%;
+    background-color: white;
+    padding: 3px;
+}
+article{
+    float: right;
+    width: 75%;
+    padding: 5px;
+}
+.card{
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.pie {
+    margin-top: 20px;
+}
+footer {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    clear: both; /* Esto asegura que el footer aparezca debajo de los elementos flotantes */
+    margin-top: 50px;
+    border-top: 2px solid;
+}
+
+
+
+
+
